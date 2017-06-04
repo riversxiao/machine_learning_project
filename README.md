@@ -1,7 +1,7 @@
 # machine_learning_project
 Here are all machine_learning_projects I made
 
-1. bike sharing prediction
+1. [bike sharing prediction](/DLND-your-first-network/)
 
 2. sentiment analysis
 
