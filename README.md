@@ -5,7 +5,7 @@ Here are all machine_learning_projects I made
 
 2. [sentiment analysis](/sentiment_network/)
 
-3. sudoku solver
+3. [sudoku solver](/Sudoku_solver)
 
 4. elementary image classification
 
