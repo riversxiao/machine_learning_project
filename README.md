@@ -24,3 +24,5 @@ Here are all machine_learning_projects I made
 11. Transfer learning for classifying flowers
 
 12. reinforced learning
+
+13. [simple_digit-recognition](/simple_digit-recognition)
