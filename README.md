@@ -3,7 +3,7 @@ Here are all machine_learning_projects I made
 
 1. [bike sharing prediction](/DLND-your-first-network/)
 
-2. sentiment analysis
+2. [sentiment analysis](/sentiment_network/)
 
 3. sudoku solver
 
