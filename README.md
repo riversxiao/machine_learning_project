@@ -7,7 +7,7 @@ Here are all machine_learning_projects I made
 
 3. [sudoku solver](/Sudoku_solver)
 
-4. elementary image classification
+4. [Isolation Game Playing Agent](/AIND-Isolation)
 
 5. language translation
 
