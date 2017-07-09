@@ -2,10 +2,11 @@
 from audit_file import street_type_re, post_code_re, phone_re
 import re
 
-
+# expected street name 
 expected = ["Street", "Avenue", "Boulevard", "Drive", "Court", "Place", "Square", "Lane", "Road",
             "Trail", "Parkway", "Commons"]
 
+# mapping the acronym or other format to the standardized format
 street_type_mapping = { "St": "Street",
                         "St.": "Street",
                         "Ave": "Avenue",
@@ -19,6 +20,7 @@ street_type_mapping = { "St": "Street",
                         "Trl" : "Trail"
                         }
 
+# update street name with mapping to standard format
 def update_street_name(name,street_type_mapping):
     m = street_type_re.search(name)
     if m:
@@ -27,9 +29,12 @@ def update_street_name(name,street_type_mapping):
         return name
     else:
         return None
+# update phone number to standard format
 def update_phone_number(value):
     value = re.sub(r'\D', "", value)
     return value
+
+# update the value according to its key
 def update_value(value, key):
     if key == "addr:street":
         return update_street_name(value,street_type_mapping)

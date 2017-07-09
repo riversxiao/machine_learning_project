@@ -1,8 +1,10 @@
 README
 
-chicago_illinois_sample_for_submit.osm is a sample file from chicago_illinois
+chicago_illinois_sample_for_submit.osm is a small sample file from chicago_illinois which is used to satisfy the submission 
 
-sample_file.py contains the code to process the sample file of chicago_illinois
+requirement 
+
+sample_file.py contains the code to clean the sample file of chicago_illinois
 
 audit_file.py contains the code to audit the file
 

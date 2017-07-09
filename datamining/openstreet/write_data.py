@@ -6,13 +6,15 @@ import cerberus
 import schema
 import updates
 
-OSM_FILE = "chicago_illinois.osm" # Replace with your OSM file
+OSM_FILE = "chicago_illinois.osm" # OSM file to be processed
 
+# file path
 NODES_PATH = "nodes.csv"
 NODE_TAGS_PATH = "nodes_tags.csv"
 WAYS_PATH = "ways.csv"
 WAY_NODES_PATH = "ways_nodes.csv"
 WAY_TAGS_PATH = "ways_tags.csv"
+
 
 PROBLEMCHARS = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
 """Regular expression to recognise problem characters"""
@@ -25,20 +27,35 @@ NODE_TAGS_FIELDS = ['id', 'key', 'value', 'category']
 WAY_FIELDS = ['id', 'user', 'uid', 'version', 'changeset', 'timestamp']
 WAY_TAGS_FIELDS = ['id', 'key', 'value', 'category']
 WAY_NODES_FIELDS = ['id', 'node_id', 'position']
-#1 not sure how to change the data
+
 
 def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIELDS,
                   problem_chars=PROBLEMCHARS, default_tag_category='regular'):
-
+    
+    """
+    Clean and shape node or way XML element to Python dict.
+    Paras:
+        element (obj): element found using ET.iterparse().
+        node_attr_fields (list): node attribute fields to be passed to output dict
+        way_attr_fields (list): way attribute fields to be passed to output dict
+        problem_chars (regex): regular expression to recognise problem characters
+        default_tag_category (str): default value to be passed to the 'category' 
+            field in output dict
+    Returns:
+        dict of node/way element attributes and attributes of child elements (tags)
+        format if node: {'node': node_attribs, 'node_tags': tags}
+        format if way: {'way': way_attribs, 'way_nodes': way_nodes, 'way_tags': tags}
+    """
     node_attribs = {}
     way_attribs = {}
     way_nodes = []
-    tags = []
+    tags = [] # Handle secondary tags the same way for node and way elements
 
     nd_position = 0
 
     for child in element:
         if child.tag == 'tag':
+            # Strip 'k' value to ensure those reflecting "type" are properly handled later
             key_attrib = child.attrib['k'].strip()
             if not PROBLEMCHARS.search(key_attrib):
                 tag = {'category': default_tag_category}
