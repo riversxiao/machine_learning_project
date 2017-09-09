@@ -1,28 +1,23 @@
 # machine_learning_project
-Here are all machine_learning_projects I made
+These are some machine_learning_projects I made.
 
-1. [bike sharing prediction](/DLND-your-first-network/)
+Most hot topics today on machine learning are all about mapping a range of input data to a range of targets, for these type of projects, I use the machine learning or deep learning title ,and the rest projects are categorized into Artificial Intelligence.
 
-2. [sentiment analysis](/sentiment_network/)
+They are fall into three categories
 
-3. [sudoku solver](/Sudoku_solver)
+1. machine learning 
 
-4. [Isolation Game Playing Agent](/AIND-Isolation)
+projects using traditional models such as regression model/classification models
 
-5. language translation
+2. deep learning
 
-6. chat bot
+projects using deeplearning frameworks such as CNN/RNN
 
-7. Autoencoder
+3. artificial intelligence
 
-8. stock prediction
+Projects that do not relay on data. 
 
-9. DCGAN for generating face 
+You can click on each file to view more detailed explaination about each project.
 
-10. Adavanced Game Playing Agent
+Fighting~
 
-11. Transfer learning for classifying flowers
-
-12. reinforced learning
-
-13. [simple_digit-recognition](/simple_digit-recognition)
