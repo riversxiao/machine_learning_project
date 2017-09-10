@@ -1,4 +1,22 @@
-ud120-projects
+## machine learning projects
 ==============
 
-Starter project code for students taking Udacity ud120
+### Here are a list of mini projects in machine learning by using sklearn library. 
+
+models used in these projects are as follows
+
+> K-means
+
+> K-nearest
+
+> decision tree
+
+> random forest
+
+> SVM
+
+> Regression
+
+> Naive Bayes
+
+Throughout these project...
