@@ -10,11 +10,17 @@ They are fall into three categories
 projects implementing various machine learning models using sklearn library
 
 > K-means
+
 > K-nearest
+
 > decision tree
+
 > random forest
+
 > SVM
+
 > Regression
+
 > Naive Bayes
 
 During these projects, I've also used PCA, standardize scale ,filter out outliers, validation method, and evaluation method using precision/ recall and f1, f2 score. 
@@ -24,12 +30,19 @@ During these projects, I've also used PCA, standardize scale ,filter out outlier
 projects using deeplearning frameworks
 
 > bike prediction
+
 > face generation
+
 > image_classification
+
 > language translation
+
 > min_char_rnn
+
 > sentiment_network
+
 > simple_digit-recognition
+
 > tv_script
 
 Among these projects, various framework are used, including, CNN, RNN, Transfer Learning, reinforcement learning, LSTM, GAN 
