@@ -15,13 +15,9 @@ The main purpose of this project is to build gradient descent algorithm and back
 ### Main Techniques Practiced In This Project
 
 > convert catagorical data into continous data using binary encoding
-
 > normalizing data for model efficiency
-
 > train,test,validation split
-
 > Implementing Gradient Descent Algorithm
-
 > Implementing BackPropgatiom 
 
 
@@ -34,5 +30,4 @@ My explanation is as follows: As we can see, Dec21 to Dec31 is around Chrismas D
 ### Furture exploration
 
 > Will multiple layer Neural Network overfit the data, or will it give a better prediction ?
-
 > compare advantages of different Gradient Descent Algorithms 
