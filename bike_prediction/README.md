@@ -1,6 +1,6 @@
-## bikesharing
+## Bike Sharing Data Analysis
 
-=======
+------
 
 ### Introduction
 
