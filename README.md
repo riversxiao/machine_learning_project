@@ -1,7 +1,7 @@
 # Machine Learning Project
 ------
 
-![hiking](../img/hiking.jpg)
+![hiking](img/hiking.jpg)
 
 source(my friend chloe)
 These are some machine_learning_projects I made.
