@@ -1,6 +1,9 @@
 # Machine Learning Project
 ------
-<img src="img/hiking.JPG" width=200>
+
+More data beats clever algorithms, but better data beats more data. -Peter Norvig
+
+<img src="img/hiking.JPG" width=400>
 
 
 source(my friend chloe)
