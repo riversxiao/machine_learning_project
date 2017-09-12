@@ -7,7 +7,8 @@ More data beats clever algorithms, but better data beats more data. -Peter Norvi
 
 
 source(my friend chloe)
-These are some machine_learning_projects I made.
+
+These are some machine_learning_projects I made during learning machine learning concepts.
 
 Most hot topics today on machine learning are all about mapping a range of input data to a range of targets, for these type of projects, I use the machine learning or deep learning title ,and the rest projects are categorized into Artificial Intelligence.
 
