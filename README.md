@@ -1,4 +1,6 @@
-# machine_learning_project
+# Machine Learning Project
+------
+
 These are some machine_learning_projects I made.
 
 Most hot topics today on machine learning are all about mapping a range of input data to a range of targets, for these type of projects, I use the machine learning or deep learning title ,and the rest projects are categorized into Artificial Intelligence.
