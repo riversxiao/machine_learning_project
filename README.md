@@ -1,7 +1,7 @@
 # Machine Learning Project
 ------
+<img src="img/hiking.JPG" width=200>
 
-![hiking](img/hiking.JPG)
 
 source(my friend chloe)
 These are some machine_learning_projects I made.
